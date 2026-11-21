@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "hitboxmod",
+  "version": "${version}",
+  "name": "Hitbox Mod",
+  "description": "Powiększa hitboxy graczy po wciśnięciu klawisza H.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.hitboxmod.HitboxModClient"] },
+  "mixins": ["hitboxmod.mixins.json"],
+  "depends": { "fabricloader": ">=0.16", "minecraft": "~1.21.4", "fabric-api": "*", "java": ">=21" }
+}
